@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mimargroup-hn.lat/sitemap.xml

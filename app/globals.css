@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+html, body { height: 100%; }
+::selection { background: rgba(61,105,214,.18); }
+.container-pro { margin-inline: auto; max-width: 1200px; padding-inline: 24px; }
+.btn-primary{ @apply inline-flex items-center justify-center rounded-lg bg-group-600 text-white px-5 py-2.5 text-sm font-semibold shadow-sm hover:bg-group-700 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-group-300; }
+.btn-ghost  { @apply inline-flex items-center justify-center rounded-lg px-5 py-2.5 text-sm font-semibold text-group-700 ring-1 ring-slate-200 hover:bg-slate-50; }
+.section-pad { @apply pt-16 pb-20 md:pt-20 md:pb-24; }
+h1,h2,h3 { @apply tracking-tight; }
