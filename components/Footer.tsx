@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Footer() {
   return (
@@ -25,7 +26,13 @@ export default function Footer() {
       <div className="container-pro grid gap-10 pb-10 md:grid-cols-4">
         <div>
           <div className="flex items-center gap-2">
-            <img src="/assets/branding/logo-group.png" alt="MIMAR GROUP" className="h-9 w-9" />
+            <Image
+              src="/assets/branding/logo-group.png"
+              alt="MIMAR GROUP"
+              width={36}
+              height={36}
+              className="h-9 w-9"
+            />
             <span className="text-base font-semibold">MIMAR GROUP</span>
           </div>
           <p className="mt-3 text-sm text-ink-600">
