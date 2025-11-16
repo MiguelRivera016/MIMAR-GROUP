@@ -8,9 +8,8 @@ const nextConfig = {
     minimumCacheTTL: 60,
   },
 
-  // Compresión y minificación
+  // Compresión
   compress: true,
-  swcMinify: true,
 
   // Headers de seguridad
   async headers() {
